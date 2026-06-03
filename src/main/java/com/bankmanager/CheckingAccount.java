@@ -22,13 +22,4 @@ public class CheckingAccount extends BankAccount {
     public void setLimit(double limit) {
         this.limit = limit;
     }
-
-    @Override
-    public String toString() {
-        return "CheckingAccount{" +
-                "account='" + getAccount() + '\'' +
-                ", balance=" + getBalance() +
-                ", limit=" + limit +
-                '}';
-    }
 }
